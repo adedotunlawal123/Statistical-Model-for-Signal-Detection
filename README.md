@@ -7,7 +7,7 @@ Wind is a major agent in infrasound transmission and detection, and tornadoes em
 
 **Aim**
 
-The code aims to provide a statistical model for signal (infrasonic) detection and probability density estimation of transmission loss, a measure of infrasound attenuation. It will be implemented to develop early warning systems for tornadoes. https://news.olemiss.edu/um-researchers-working-detect-track-tornadoes/
+The code aims to provide a statistical model for signal (infrasonic) detection and probability density estimation of transmission loss, a measure of infrasound attenuation, for the prediction of infrasound detection. It will be implemented to develop early warning systems for tornadoes. https://news.olemiss.edu/um-researchers-working-detect-track-tornadoes/
 
 **Sponsor**
 
