@@ -11,4 +11,4 @@ The code aims to provide a statistical model for signal (infrasonic) detection a
 
 **Sponsor**
 
-This project is sponsored by National Oceanic and Atmospheric Administration (NOAA) to watch for tornadoes.
+This project is sponsored by National Oceanic and Atmospheric Administration (NOAA) to watch for tornadoes, thus saving lives.
