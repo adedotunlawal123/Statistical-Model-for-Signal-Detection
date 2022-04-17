@@ -1,7 +1,9 @@
 **Statistical-Model-for-Signal-Detection**
 
 **Prerequisite**
+
 ncpaprop https://github.com/chetzer-ncpa/ncpaprop-release/
+
 This will be used to simulate transmission loss during infrasound propagation.
 
 **Background** 
