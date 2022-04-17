@@ -12,7 +12,7 @@ The code aims to provide a statistical model for signal (infrasonic) detection a
 
 ncpaprop https://github.com/chetzer-ncpa/ncpaprop-release/
 
-This is to be installed to simulate infrasound transmission loss during propagation.
+This should be installed to simulate infrasound transmission loss during propagation.
 
 **Sponsor**
 
