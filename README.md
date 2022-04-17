@@ -1,5 +1,9 @@
 **Statistical-Model-for-Signal-Detection**
 
+**Prerequisite**
+ncpaprop https://github.com/chetzer-ncpa/ncpaprop-release/
+This will be used to simulate transmission loss during infrasound propagation.
+
 **Background** 
 
 Wind is a major agent in infrasound transmission and detection, and tornadoes emit infrasonic signals. However, winds have non-deterministic behavior; hence prediction of infrasound detection is almost impossible.
