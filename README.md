@@ -4,7 +4,6 @@
 
 Wind is a major agent in infrasound transmission and detection, and tornadoes emit infrasonic signals. However, winds have non-deterministic behavior; hence prediction of infrasound detection is almost impossible.
 
-<br/>
 
 **Aim**
 
