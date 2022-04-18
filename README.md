@@ -20,11 +20,11 @@ The code aims to provide a statistical model for signal (infrasonic) detection a
 
 2. eofs https://ajdawson.github.io/eofs/latest/
 
-    A library for empirical orthogonal function analysis
+    A python package for empirical orthogonal function analysis.
   
 3. kde.py https://kdepy.readthedocs.io/en/latest/index.html
 
-    A library for kernel density estimation
+    A python package for kernel density estimation.
 
 **Sponsor**
 =============
