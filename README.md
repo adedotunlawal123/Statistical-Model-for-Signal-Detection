@@ -1,4 +1,4 @@
-**Statistical Model for-Signal-Detection**
+**Statistical Model for Signal Detection**
 ==========================================
 
 **Background** 
