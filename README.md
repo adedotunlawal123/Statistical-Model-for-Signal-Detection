@@ -16,15 +16,15 @@ The code aims to provide a statistical model for signal (infrasonic) detection a
 ====================
 1. ncpaprop https://github.com/chetzer-ncpa/ncpaprop-release/
 
-This should be installed to simulate infrasonic transmission loss during propagation.
+    This should be installed to simulate infrasonic transmission loss during propagation.
 
 2. eofs https://ajdawson.github.io/eofs/latest/
 
-A library for empirical orthogonal function analysis
+    A library for empirical orthogonal function analysis
   
 3. kde.py https://kdepy.readthedocs.io/en/latest/index.html
 
-A library for kernel density estimation
+    A library for kernel density estimation
 
 **Sponsor**
 =============
