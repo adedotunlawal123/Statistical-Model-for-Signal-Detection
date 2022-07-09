@@ -7,7 +7,7 @@ do
 #for i in $list; do
     #if $i<3; then
 	    cd ${i}hr
-	    cp ~/Mscproject/umfs_son_2020/profiles/umfs.2020{09..11}{01..31}0${i}.dat ~/Mscproject/umfs_son_2020/svds/${i}hr
+	    cp ~/project/umfs_son_2020/profiles/umfs.2020{09..11}{01..31}0${i}.dat ~/project/umfs_son_2020/svds/${i}hr
 	    i=`expr $i + 1`
             cp ~/pp/testing/data_analysis data_analysis
             ./data_analysis
