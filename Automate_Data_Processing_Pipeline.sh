@@ -22,7 +22,7 @@ do
 done
 
 
-    #when copying this script from a terminal editor make sure to copy from this terminal editor to another terminal editor in linux
+    #When copying this script from a terminal editor make sure to copy from this terminal editor to another terminal editor in linux
     #When copying this script to new directory change the profiles, testing ( or whatever required directory name ) to the new directories name, absolute or relative.
     #Also remember to change/include name of scripts for cases where new scripts are included
     #Also change i, 2 in the mkdir and 3 in the while loop to the required value ( +1 above the directory with the highest number in that of while loop ) for the analysis.
