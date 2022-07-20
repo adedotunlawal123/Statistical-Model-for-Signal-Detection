@@ -56,7 +56,23 @@ RHO = np.array(list(RHO))
 Z_RHO.append(RHO)
 
 
-
+#A function to prepend the formatted headers to profile (already in csv format), so epape can use it.
+def prepend_multiple_lines(file_name, list_of_lines):
+    """Insert given list of strings as a new lines at the beginning of a file"""
+    # define name of temporary dummy file
+    dummy_file = file_name + '.bak'
+    # open given original file in read mode and dummy file in write mode
+    with open(file_name, 'r') as read_obj, open(dummy_file, 'w') as write_obj:
+        # Iterate over the given list of strings and write them to dummy file as lines
+        for line in list_of_lines:
+            write_obj.write(line + '\n')
+        # Read lines from original file one by one and append them to the dummy file
+        for line in read_obj:
+            write_obj.write(line)
+        # remove original file
+        os.remove(file_name)
+        # Rename dummy file as the original file
+        os.rename(dummy_file, file_name)
 
 
 # A function to generate the KDE for transmission loss
@@ -111,24 +127,6 @@ def trans_losskde():
     
             #convert the dataframe to csv
             profile.to_csv('profile', sep = ' ', header = False, index = False)
-    
-            #A function to prepend the formatted headers to profile (already in csv format), so epape can use it.
-            def prepend_multiple_lines(file_name, list_of_lines):
-                """Insert given list of strings as a new lines at the beginning of a file"""
-                # define name of temporary dummy file
-                dummy_file = file_name + '.bak'
-                # open given original file in read mode and dummy file in write mode
-                with open(file_name, 'r') as read_obj, open(dummy_file, 'w') as write_obj:
-                    # Iterate over the given list of strings and write them to dummy file as lines
-                    for line in list_of_lines:
-                        write_obj.write(line + '\n')
-                    # Read lines from original file one by one and append them to the dummy file
-                    for line in read_obj:
-                        write_obj.write(line)
-                # remove original file
-                os.remove(file_name)
-                # Rename dummy file as the original file
-                os.rename(dummy_file, file_name)
     
             #A list containing the formatted headers. This is an argument in the function for prepending
             list_of_lines = ['#% 0, Z0, m, 117.3', '#% 1, Z, km', '#% 2, RHO, kg/m3', '#% 3, CEFF, m/s']
