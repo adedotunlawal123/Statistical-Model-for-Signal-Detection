@@ -196,7 +196,7 @@ def plot_kde(x_trans, y_prob, x_dis):
     plt.ylabel('probability density')
     plt.figtext(0.7, 0.8, "az={}deg".format(az))
     plt.figtext(0.7, 0.7, "range={}km".format(x_dis))
-    #plt.show()
+    
     
     
 def save_fig(x):
