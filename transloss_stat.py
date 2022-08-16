@@ -3,7 +3,6 @@
 import pandas as pd
 import numpy as np
 from eofs.standard import Eof #https://ajdawson.github.io/eofs/latest/userguide/index.html
-#from eofs.examples import example_data_path
 from numpy import savetxt
 from scipy.stats import norm
 from scipy import interpolate
