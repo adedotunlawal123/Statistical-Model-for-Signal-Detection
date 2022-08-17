@@ -26,7 +26,7 @@ rnge = [20,40,60,80] # Range in Km
 
 def get_datamatrix():
     """
-    Builds data matrix
+    Build data matrix
     
     Returns
     --------
@@ -58,7 +58,7 @@ solver = Eof(a, center = False)
 
 def get_no_of_true():
     """
-    Gets the optimal truncation location for Truncated SVD
+    Get the optimal truncation location for Truncated SVD
     
     Returns
     --------
@@ -85,7 +85,7 @@ no_of_true = get_no_of_true()
 
 def get_Z_and_RHO():
     """
-    Extracts Altitude and Density Vector from Atmospheric Profile
+    Extract altitude and density vector from atmospheric profile
     
     Returns
     --------
@@ -199,7 +199,7 @@ def get_profile():
       
 def prepend_atmos_spec():
     """
-    Prepends formatted headers to sample atmospheric profile
+    Prepend formatted headers to sample atmospheric profile
     """
     list_of_lines = ['#% 0, Z0, m, 117.3', '#% 1, Z, km', '#% 2, RHO, kg/m3', '#% 3, CEFF, m/s']
     #Calling the function for prepending
@@ -209,7 +209,7 @@ def prepend_atmos_spec():
     
 def run_epape(x):
     """
-    Runs ePape (Effective Sound Speed Pade Parabolic Equation)
+    Run ePape (Effective Sound Speed Pade Parabolic Equation)
     """
     #Run epape to generate the transfer functions
     epape_cmd = ["ePape", "--singleprop", "--starter self", "--atmosfile profile", "--freq 5", "--azimuth {}".format(az), "--maxrange_km {}".format(x)]
