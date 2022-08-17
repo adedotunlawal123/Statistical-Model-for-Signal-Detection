@@ -48,6 +48,7 @@ def get_datamatrix():
     return a, a_mean_vector
     
 
+#Call get_datamatrix()
 a, a_mean_vector = get_datamatrix()
 
 
@@ -77,6 +78,8 @@ def get_no_of_true():
     no_of_true=np.count_nonzero((S > T))
     return no_of_true  
 
+
+#Call get_no_of_true()
 no_of_true = get_no_of_true()
 
 
@@ -102,6 +105,8 @@ def get_Z_and_RHO():
     Z_RHO.append(RHO)
     return Z_RHO
 
+
+#Call get_Z_and_RHO()
 Z_RHO = get_Z_and_RHO()
 
 
@@ -177,6 +182,8 @@ def get_sample_Ceff():
     eff_soundspeeds.append(ceff)
     return eff_soundspeeds
 
+
+#Call get_sample_Ceff()
 eff_soundspeeds = get_sample_Ceff()
    
 
