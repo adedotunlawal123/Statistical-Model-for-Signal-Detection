@@ -10,7 +10,7 @@ Wind is a major agent in infrasound transmission and detection, and tornadoes em
 **Aim**
 =========
 
-The code aims to provide a statistical model for signal (infrasonic) detection prediction using machine learning methods. It will be implemented to develop early warning systems for tornadoes. 
+The code generates statistical models. The statistical models are used to estimate signal (infrasonic) detection at a sensor. It will be implemented to develop early warning systems for tornadoes.
 
 https://news.olemiss.edu/um-researchers-working-detect-track-tornadoes/
 
