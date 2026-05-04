@@ -31,4 +31,4 @@ https://news.olemiss.edu/um-researchers-working-detect-track-tornadoes/
 **Sponsor**
 =============
 
-This project is sponsored by National Oceanic and Atmospheric Administration (NOAA) to watch for tornadoes, thus saving lives.
+This project is sponsored by National Oceanic and Atmospheric Administration (NOAA) to watch for tornadoes and develop efficient early warning system, thus saving lives.
